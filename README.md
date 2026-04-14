@@ -1,4 +1,4 @@
-#ĐỒ ÁN CUỐI KHÓA - MÔN HỌC BIG DATA
+# ĐỒ ÁN CUỐI KHÓA - MÔN HỌC BIG DATA
 
 Chào mừng các bạn đến với Đồ án cuối khóa! Đây không chỉ là một bài tập trên lớp, mà là cơ hội để các bạn xây dựng một **Data Pipeline chuẩn Production**, sẵn sàng đưa vào CV ứng tuyển các vị trí Data Engineer / Data Analyst.
 
