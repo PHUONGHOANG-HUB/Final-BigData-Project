@@ -3,10 +3,8 @@
 # 1. CHẶN DỮ LIỆU (DATA LAKE) - QUAN TRỌNG NHẤT
 # ==========================================
 # Chặn toàn bộ thư mục data để tránh đẩy file nặng lên GitHub
-data/
+
 # Nếu sinh viên dùng các thư mục tên khác để chứa dữ liệu
-raw_data/
-staging_data/
 output/
 *.csv
 *.json
