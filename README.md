@@ -33,11 +33,12 @@ Repository của nhóm phải giữ nguyên cấu trúc dưới đây. **Tuyệt
  ┣ 📜 README.md            # File này
  ┗ 📜 requirements.txt     # Khai báo các thư viện cần cài đặt (ví dụ: pyspark, kafka-python...)
 ```
-##🚫 3. NHỮNG "ĐIỀU CẤM KỴ" (SẼ BỊ TRỪ ĐIỂM NẶNG)CẤM PUSH DỮ LIỆU LÊN GITHUB: 
+## 🚫 3. NHỮNG "ĐIỀU CẤM KỴ" (SẼ BỊ TRỪ ĐIỂM NẶNG)CẤM PUSH DỮ LIỆU LÊN GITHUB: 
 * Thư mục data/ đã được chặn trong file .gitignore. Các bạn chỉ chạy và lưu dữ liệu trên máy tính cá nhân/Colab. Nếu cố tình đẩy file .csv, .parquet nặng lên làm phình/treo Repository, nhóm sẽ bị trừ điểm sàn ngay lập tức.
 * CẤM HARDCODE API KEY / MẬT KHẨU: Tuyệt đối không viết thẳng mật khẩu hoặc API Key vào file code .py. Hãy dùng file .env (được cấu hình ẩn) và thư viện python-dotenv để load key.
 * KHÔNG VIẾT CODE CHÍNH TRONG NOTEBOOK: Thư mục src/ chỉ nhận file .py. File .ipynb chỉ được phép nằm trong thư mục notebooks/ để phân tích dữ liệu (EDA).
-## 🤖 4. QUY TRÌNH CHẤM ĐIỂM TỰ ĐỘNG (AUTOGRADING)Đồ án này áp dụng quy trình kiểm thử liên tục (CI/CD). Mỗi khi bạn nộp code (Push lên GitHub nhánh main), hệ thống GitHub Actions sẽ tự động chạy 2 vòng kiểm tra:
+## 🤖 4. QUY TRÌNH CHẤM ĐIỂM TỰ ĐỘNG (AUTOGRADING) Đồ án này áp dụng quy trình kiểm thử liên tục (CI/CD). 
+Mỗi khi bạn nộp code (Push lên GitHub nhánh main), hệ thống GitHub Actions sẽ tự động chạy 2 vòng kiểm tra:
 * Vòng 1 (Test Giảng Viên): Quét xem nhóm có nộp đủ báo cáo không, code có sai chuẩn không, có lỡ push file data lên không. (Bắt buộc Pass để lấy điểm sàn).
 * Vòng 2 (Test Sinh Viên): Tự động chạy tất cả các file test do chính các bạn viết trong thư mục tests_nghiep_vu/.👉 Hãy theo dõi tab "Actions" trên GitHub để xem code của mình có được Tích Xanh (Passed) hay không nhé!
 ## 📋 5. DANH SÁCH ĐỀ TÀI ĐỊNH HƯỚNG
